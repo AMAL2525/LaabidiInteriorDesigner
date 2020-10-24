@@ -1,0 +1,139 @@
+html {
+     background-image: url("../res/img21.jpg") ;
+     background-repeat: no-repeat;
+     background-size: 100%;
+     background-position: center center;
+     background-attachment: fixed;
+     background-size: cover;
+     
+}
+.social-menu ul {
+     position: absolute;
+     top: 10%;
+     left: 23%;
+     transform: translate(-50%, -50%);
+     padding: 0;
+     margin: 0;
+     display: flex;
+     
+ }
+ .social-menu ul li {
+     list-style: none;
+     margin:  10px;
+ }
+ .social-menu ul li .fa {
+     color: #000000;
+     font-size: 25px;
+     line-height: 50px;
+     transition: .5s;
+ }
+ .social-menu ul li .fa:hover {
+     color: white;
+ }
+ .social-menu ul li a {
+     position: relative;
+     display: block;
+     width: 50px;
+     height: 50px;
+     border-radius: 50%;
+     background-color: white;
+     text-align: center;
+     transition: 0.5s;
+     transform: translate(0,0px);
+     box-shadow: 0px 7px 5px rgba(0, 0, 0, 0.5);
+ }
+ .social-menu ul li a:hover {
+     transform: rotate(0deg) skew(0deg) translate(0, -10px);
+ }
+ .social-menu ul li:nth-child(1) a:hover {
+     background-color: #3b5999;
+ }
+ 
+ 
+ .social-menu ul li:nth-child(2) a:hover {
+     background-color: #e4405f;
+ }
+ 
+ 
+ .social-menu ul li:nth-child(3) a:hover {
+     background-color: #0077B5;
+ }
+ .logo {
+      color: black ;
+      position: relative;
+      left: 750px;
+      font-size: 21px;
+      font-style: bold;
+      font-style: italic;
+      text-shadow: 0 0 3px #b98181, 0 0 5px black;
+  
+ }
+ .front{
+     margin-top: 22mm;
+     margin-left: 180mm;
+     border-radius: 9px;
+ }
+ h1 {
+    font-family: 'Arizonia';
+    font-size: 70px;
+    margin-left: 100mm ;
+    
+    color: #251103 ;
+
+ }
+ h6 {
+    font-family: 'Arizonia';font-size: 30px;
+    margin-left: 160mm ;
+    
+    color: #251103 ;
+    margin-top: 8%;
+    
+
+ }
+ .but .alb button {
+    display: flex;
+    top: 15rem;
+    position: absolute;
+    top: 90%;
+    left: 80%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    background: linear-gradient(90deg,#b98181, #b85b19 );
+    text-transform: uppercase;
+    border-radius: 40%;
+    padding: 5px 36px;
+    font-size: 18px;
+    display: inline-block;
+    border: none;
+    
+ } 
+  .but .sho button {
+    display: flex;
+    top: 15rem;
+    position: absolute;
+    top: 90%;
+    left: 20%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    background: linear-gradient(90deg,#b98181, #b85b19 );
+    text-transform: uppercase;
+    border-radius: 40%;
+    padding: 5px 36px;
+    font-size: 18px;
+    display: inline-block;
+    border: none;
+      
+  } 
+  
+ ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+ }
+.mywork {
+    display: flex;
+    align-self: center;
+    justify-content: center;
+    flex: 1;
+    
+}
